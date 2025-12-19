@@ -852,3 +852,25 @@ window.addEventListener("DOMContentLoaded", () => {
 document.querySelectorAll("use").forEach(item => {
     item.setAttribute("href", item.getAttribute("href"));
 });
+
+// Product Detail Page - Show More Images
+document.addEventListener('DOMContentLoaded', function() {
+    const showMoreBtn = document.getElementById('showMoreImagesBtn');
+    const hiddenImages = document.querySelectorAll('.product-image-item.hidden-image');
+    const hiddenCountSpan = document.getElementById('hiddenImagesCount');
+    
+    // Show more images
+    if (showMoreBtn) {
+        showMoreBtn.addEventListener('click', function() {
+            hiddenImages.forEach(img => {
+                img.style.display = 'block';
+            });
+            showMoreBtn.style.display = 'none';
+        });
+    }
+
+    // Update hidden count
+    if (hiddenCountSpan && hiddenImages.length > 0) {
+        hiddenCountSpan.textContent = hiddenImages.length;
+    }
+});

@@ -71,7 +71,7 @@
         </div>
         <div class="header-main-right">
           <div class="header-links">
-            <a href="#" class="header-link" style="pointer-events: none; opacity: 0.5;">Kataloq</a>
+            <a href="#" class="header-link disabled">Kataloq</a>
             <a href="map.html" class="header-link">Xəritədə bax</a>
             <a href="contact.html" class="header-link">Əlaqə</a>
           </div>
@@ -121,49 +121,49 @@
 
     <main>
       <!-- Breadcrumbs -->
-      <section class="breadcrumbs-section" style="padding: 20px 0; background: #f8f8f8;">
+      <section class="breadcrumbs-section">
         <div class="container">
-          <nav class="breadcrumbs" style="display: flex; gap: 8px; font-size: 14px; color: #666;">
-            <a href="index.html" style="color: #666; text-decoration: none;">Ana səhifə</a>
+          <nav class="breadcrumbs">
+            <a href="index.html">Ana səhifə</a>
             <span>/</span>
-            <a href="#" style="color: #666; text-decoration: none;">Kataloq</a>
+            <a href="#">Kataloq</a>
             <span>/</span>
-            <span style="color: #1f1f21;">Məhsul adı</span>
+            <span>Məhsul adı</span>
           </nav>
         </div>
       </section>
 
       <!-- Product Detail Section -->
-      <section class="product-detail-section" style="padding: 60px 0;">
-        <div class="container" style="max-width: 1920px; margin: 0 auto; padding: 0 80px; box-sizing: border-box;">
-          <div class="product-detail-wrapper" style="display: grid; grid-template-columns: 50% 45%; gap: 40px; align-items: start; width: 100%; box-sizing: border-box;">
+      <section class="product-detail-section">
+        <div class="container">
+          <div class="product-detail-wrapper">
             
             <!-- Left Column: ONLY Images with Sticky Info -->
-            <div class="product-left-column" style="display: flex; flex-direction: column; position: sticky; top: 100px; align-self: start; width: 100%; box-sizing: border-box; overflow: hidden;">
+            <div class="product-left-column">
               <!-- Main Product Image -->
-              <div class="product-main-image" style="margin-bottom: 30px;">
+              <div class="product-main-image">
                 <div class="product-left-images">
                   <div class="product-images-list" id="productImagesList">
-                    <div class="product-image-item" style="margin-bottom: 16px;">
-                      <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop" alt="Məhsul şəkli 1" style="width: 100%; height: 420px; object-fit: cover; border-radius: 12px; cursor: pointer; ">
+                    <div class="product-image-item">
+                      <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop" alt="Məhsul şəkli 1">
                     </div>
-                    <div class="product-image-item" style="margin-bottom: 16px;">
-                      <img src="https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=800&h=600&fit=crop" alt="Məhsul şəkli 2" style="width: 100%; height: 420px; object-fit: cover; border-radius: 12px; cursor: pointer; ">
+                    <div class="product-image-item">
+                      <img src="https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=800&h=600&fit=crop" alt="Məhsul şəkli 2">
                     </div>
-                    <div class="product-image-item hidden-image" style="margin-bottom: 16px; display: none;">
-                      <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&h=600&fit=crop" alt="Məhsul şəkli 3" style="width: 100%; height: 420px; object-fit: cover; border-radius: 12px; cursor: pointer; ">
+                    <div class="product-image-item hidden-image">
+                      <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&h=600&fit=crop" alt="Məhsul şəkli 3">
                     </div>
-                    <div class="product-image-item hidden-image" style="margin-bottom: 16px; display: none;">
-                      <img src="https://images.unsplash.com/photo-1551292831-023188e78222?w=800&h=600&fit=crop" alt="Məhsul şəkli 4" style="width: 100%; height: 420px; object-fit: cover; border-radius: 12px; cursor: pointer; ">
+                    <div class="product-image-item hidden-image">
+                      <img src="https://images.unsplash.com/photo-1551292831-023188e78222?w=800&h=600&fit=crop" alt="Məhsul şəkli 4">
                     </div>
-                    <div class="product-image-item hidden-image" style="margin-bottom: 16px; display: none;">
-                      <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop" alt="Məhsul şəkli 5" style="width: 100%; height: 420px; object-fit: cover; border-radius: 12px; cursor: pointer; ">
+                    <div class="product-image-item hidden-image">
+                      <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop" alt="Məhsul şəkli 5">
                     </div>
-                    <div class="product-image-item hidden-image" style="margin-bottom: 16px; display: none;">
-                      <img src="https://images.unsplash.com/photo-1497366754035-2001987be688?w=800&h=600&fit=crop" alt="Məhsul şəkli 6" style="width: 100%; height: 420px; object-fit: cover; border-radius: 12px; cursor: pointer; ">
+                    <div class="product-image-item hidden-image">
+                      <img src="https://images.unsplash.com/photo-1497366754035-2001987be688?w=800&h=600&fit=crop" alt="Məhsul şəkli 6">
                     </div>
                   </div>
-                  <button type="button" class="show-more-images-btn" id="showMoreImagesBtn" style="width: 100%; padding: 12px; background: #f8f8f8; border: 1px solid #e9e8eb; border-radius: 4px; font-size: 14px; font-weight: 500; color: #1f1f21; cursor: pointer; margin-top: 12px;">
+                  <button type="button" class="show-more-images-btn" id="showMoreImagesBtn">
                     Daha çox (<span id="hiddenImagesCount">4</span>)
                   </button>
                 </div>
@@ -173,57 +173,98 @@
             </div>
 
             <!-- Right Column: ONLY Text Content -->
-            <div class="product-right-column" style="width: 100%; box-sizing: border-box;position: sticky;top: 120px;">
+            <div class="product-right-column">
               <!-- Product Details -->
               <div class="product-details-content">
-                <div class="product-left-info" style="margin-bottom: 30px;">
-                  <div class="product-code" style="font-size: 14px; color: #999; margin-bottom: 12px;">
-                    Kod: 859380
+                <div class="product-left-info">
+                  <div class="product-code">Kod: 859380</div>
+                  <div class="product-rating">
+                    <span>★★★★★</span>
                   </div>
-                  <div class="product-rating" style="display: flex; align-items: center; gap: 8px; margin-bottom: 16px;">
-                    <span style="color: #ffa500; font-size: 18px;">★★★★★</span>
-                  </div>
-                  <h1 class="product-title" style="font-size: 24px; font-weight: 600; margin-bottom: 24px; color: #1f1f21; line-height: 1.3;">
-                    Premium Ofis Mebeli Kolleksiyası
-                  </h1>
-                  <div class="product-properties" style="border-top: 1px solid #e9e8eb; padding-top: 20px;">
-                    <div class="property-item" style="display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
-                      <span style="color: #666; font-size: 14px;">Material:</span>
-                      <span style="color: #1f1f21; font-size: 14px; font-weight: 500;">Premium ağac</span>
+                  <h1 class="product-title">Premium Ofis Mebeli Kolleksiyası</h1>
+                  <div class="product-properties">
+                    
+                    <!-- Availability -->
+                    <div class="property-item">
+                      <div class="property-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                          <path d="M9 12l2 2 4-4"></path>
+                        </svg>
+                      </div>
+                      <div class="property-text">Mövcuddur</div>
                     </div>
-                    <div class="property-item" style="display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
-                      <span style="color: #666; font-size: 14px;">Ölçü:</span>
-                      <span style="color: #1f1f21; font-size: 14px; font-weight: 500;">120x60x75 sm</span>
+
+                    <!-- Delivery -->
+                    <div class="property-item">
+                      <div class="property-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                          <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                      </div>
+                      <div class="property-text">
+                        Çatdırılma: <span>23 dekabr</span>
+                      </div>
                     </div>
-                    <div class="property-item" style="display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
-                      <span style="color: #666; font-size: 14px;">Rəng:</span>
-                      <span style="color: #1f1f21; font-size: 14px; font-weight: 500;">Ağ, Qara</span>
+
+                    <!-- Pickup -->
+                    <div class="property-item">
+                      <div class="property-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M12 2v20M2 12h20"></path>
+                          <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                      </div>
+                      <div class="property-text">
+                        Özünüz götürün: <span>23 dekabr</span>, <span>götürmə nöqtələri</span>
+                      </div>
                     </div>
-                    <div class="property-item" style="display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
-                      <span style="color: #666; font-size: 14px;">Garantiya:</span>
-                      <span style="color: #1f1f21; font-size: 14px; font-weight: 500;">2 il</span>
+
+                    <!-- Assembly Conditions -->
+                    <div class="property-item">
+                      <div class="property-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <rect x="3" y="3" width="7" height="7" rx="1"></rect>
+                          <rect x="14" y="3" width="7" height="7" rx="1"></rect>
+                          <rect x="3" y="14" width="7" height="7" rx="1"></rect>
+                          <rect x="14" y="14" width="7" height="7" rx="1"></rect>
+                        </svg>
+                      </div>
+                      <div class="property-text">
+                        <span>Yığılma şərtləri</span>
+                      </div>
                     </div>
-                    <div class="property-item" style="display: flex; justify-content: space-between; padding: 12px 0;">
-                      <span style="color: #666; font-size: 14px;">Çatdırılma:</span>
-                      <span style="color: #1f1f21; font-size: 14px; font-weight: 500;">Bütün Azərbaycan</span>
+
+                    <!-- Warranty -->
+                    <div class="property-item">
+                      <div class="property-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                          <path d="M2 17l10 5 10-5"></path>
+                          <path d="M2 12l10 5 10-5"></path>
+                        </svg>
+                      </div>
+                      <div class="property-text">
+                        Zəmanət: <span>12 ay</span>
+                        <span class="warranty-tooltip">?</span>
+                      </div>
                     </div>
+
                   </div>
                 </div>
-                <div class="product-price" style="margin-bottom: 30px;">
-                  <div style="display: flex; align-items: center; gap: 16px;">
-                    <span style="font-size: 42px; font-weight: 700; color: #1f1f21;">1,250 AZN</span>
-                    <span style="font-size: 24px; color: #999; text-decoration: line-through;">1,500 AZN</span>
-                    <span style="background: #ff4444; color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 600;">-17%</span>
+                <div class="product-price">
+                  <div>
+                    <span>1,250 AZN</span>
+                    <span>1,500 AZN</span>
+                    <span>-17%</span>
                   </div>
                 </div>
-                <div class="product-description" style="margin-bottom: 30px; line-height: 1.8; color: #514f59; font-size: 16px;">
+                <div class="product-description">
                   <p>Müasir ofis üçün dizayn edilmiş premium mebel kolleksiyası. Ergonomik dizayn, keyfiyyətli materiallar və uzunömürlü konstruksiya ilə hazırlanmışdır. Ofisiniz üçün ideal həll.</p>
                 </div>
-                <div class="product-actions" style="display: flex; gap: 16px; margin-bottom: 40px;">
-                  
-                  <button style="padding: 16px 24px; background: white; color: #1f1f21;  border-radius: 4px; font-size: 16px; font-weight: 600; cursor: pointer;">
-                    Qiymət təklifi al
-                  </button>
+                <div class="product-actions">
+                  <button>Qiymət təklifi al</button>
                 </div>
               </div>
             </div>
@@ -251,7 +292,7 @@
             <a href="tel:+994 55 444‑88‑53" class="footer-phone">+994 55 444‑88‑53</a>
             <div class="footer-hours">Hər gün: 9:00‑19:00 Bakı vaxtı ilə</div>
             <a href="mailto:info@erzofismebel.az" class="footer-email">info@erzofismebel.az</a>
-            <div class="footer-address" style="margin-top: 12px; font-size: 14px; color: #514f59;">
+            <div class="footer-address">
               Əhməd Rəcəbli 19 R, Bakı, Azərbaycan
             </div>
           </div>
@@ -269,62 +310,6 @@
     </footer>
 
     <script src="js/script.js"></script>
-    <script>
-      // Product images functionality
-      document.addEventListener('DOMContentLoaded', function() {
-        const showMoreBtn = document.getElementById('showMoreImagesBtn');
-        const hiddenImages = document.querySelectorAll('.hidden-image');
-        const hiddenCountSpan = document.getElementById('hiddenImagesCount');
-        const leftImages = document.querySelectorAll('.product-image-item img');
-        
-        // Show more images
-        if (showMoreBtn) {
-          showMoreBtn.addEventListener('click', function() {
-            hiddenImages.forEach(img => {
-              img.style.display = 'block';
-            });
-            showMoreBtn.style.display = 'none';
-          });
-        }
-
-        // Update hidden count
-        if (hiddenCountSpan && hiddenImages.length > 0) {
-          hiddenCountSpan.textContent = hiddenImages.length;
-        }
-
-        // Change active image on click (no borders)
-        leftImages.forEach(img => {
-          img.addEventListener('click', function() {
-            // Image click handler
-          });
-        });
-      });
-    </script>
-    <style>
-      @media (max-width: 1200px) {
-        .product-detail-wrapper {
-          grid-template-columns: 1fr !important;
-        }
-        .product-left-column {
-          position: static !important;
-        }
-      }
-      @media (max-width: 1660px) {
-        .container {
-          padding: 0 50px !important;
-        }
-      }
-      @media (max-width: 1200px) {
-        .container {
-          padding: 0 24px !important;
-        }
-      }
-      @media (max-width: 660px) {
-        .container {
-          padding: 0 16px !important;
-        }
-      }
-    </style>
   </body>
 </html>
 
